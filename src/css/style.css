@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(26, 157, 66), rgb(44, 44, 168) );
+    color: rgb(20, 241, 179);
+    height: 100vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.verificador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.verificador:hover{
+    background-image: linear-gradient(rgb(13, 126, 132), rgb(17, 19, 171));
+}
+
+.verificador .titulo {
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 1px rgba(26, 1, 1, 0.504) ;
+}
+
+
+.verificador .formulario{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+}
+
+.verificador .informacao{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(28, 94, 107);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.verificador .input{
+    width: 100%;
+    padding: 3px;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    color: rgb(0, 0, 0);
+    border-color: #000592; 
+    outline: none; 
+}
+
+.btn{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(24, 10, 92);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 25px 0;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-image: linear-gradient(rgb(233, 148, 68), rgb(97, 136, 235) );
+    color: black;
+}
+
+p{
+    font-size: 20px;
+}
